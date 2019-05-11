@@ -7,11 +7,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SliderComponent } from './components/tabs/home/slider/slider.component';
+import { SliderComponent } from './components/slider/slider.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { TabsComponent } from './components/tabs/tabs.component';
+import { TabComponent } from './components/tabs/tab.component';
 import {HomeComponent} from "./components/tabs/home/home.component";
-import { NewsComponent } from './components/tabs/home/news/news.component';
 import { TeamsComponent } from './components/tabs/teams/teams.component';
 import { MatchesComponent } from './components/tabs/matches/matches.component';
 
@@ -23,8 +22,7 @@ import { MatchesComponent } from './components/tabs/matches/matches.component';
     SliderComponent,
     HomeComponent,
     SidebarComponent,
-    TabsComponent,
-    NewsComponent,
+    TabComponent,
     TeamsComponent,
     MatchesComponent
   ],
